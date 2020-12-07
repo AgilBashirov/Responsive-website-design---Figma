@@ -1,0 +1,100 @@
+.section4{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 267px auto;
+}
+.section4 > div{
+    background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-size: 30px;
+}
+.section4-header{
+    justify-content: center;
+}
+.section4-header h2{
+    margin-top: 80px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+
+}
+.section4-header p{
+    margin: 10px auto;
+    height: 40px;
+    width: 470px;
+
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+.section4-sidebox{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.section4-sidebox .box-middle{
+    margin: 0 32px;
+}
+.section4-box{
+   
+    width: 327px;
+    height: 244px;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 30px 35px;
+
+
+}
+
+
+.star-icons{
+    display: flex;
+    height: 18.34711456298828px;
+    width: 18.344575881958008px;
+
+}
+.box-text{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin: 20px 0;
+    text-align: left;
+}
+.designer{
+    display: flex;
+}
+.designer img{
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+.designer p{
+  
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+.person-name{
+    color: #FF7B47;
+}
+.person-job{
+    color: #252B42;
+}
+.person{
+   text-align: left;
+}

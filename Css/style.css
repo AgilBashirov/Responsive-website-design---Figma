@@ -1,0 +1,131 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 823px 732px 759px;
+}
+.section1{
+    background-image: url(../Image/cover.jpg);
+    background-color: rgba(255, 255, 255, 0.7);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    display: block;
+    width: 693px;
+    height: 160px;
+    margin-top: 190.5px;
+    margin-left: 195px;
+}
+.header-main p{
+    display: block;
+    height: 60px;
+    width: 539px;
+    margin-top: 35px;
+    margin-left: 195px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+.header-main nav{
+    display: flex;
+}
+.header-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+
+.header-button-primary{
+    margin-top: 35px;
+    margin-left: 195px;
+    margin-right: 10px;
+    height: 48px;
+    width: 185px;
+    border-radius: 37px;
+    background: #FF7B47;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+
+}
+.header-button-secondary{
+    margin-top: 35px;
+    height: 48px;
+    width: 154px;
+    border-radius: 37px;
+    color: #0D5C63;
+    border: 1px solid #0D5C63;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    height: 32px;
+    width: 86px;
+
+    margin-top: 39px;
+    margin-left: 195px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.nav-items{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin-top: 40px;
+    margin-right: 21px;
+}
+.nav-items:nth-child(4){
+    margin-right: 39px;
+}
+.nav-icon1{
+    height: 20.000688552856445px;
+    width: 20.000930786132812px;
+    margin-top: 44px;
+    margin-right: 22px;
+}
+.nav-icon2{
+    height: 14.933443069458008px;
+    width: 16px;
+    margin-top: 45PX;
+}
+.toggler{
+    margin-top: 45px;
+    margin-right: 59.57px;
+} 

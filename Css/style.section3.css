@@ -1,0 +1,51 @@
+.section3{
+    display: grid;
+    position: relative;
+    grid-template-columns: auto;
+    grid-template-rows: 409px auto;
+    padding-left: auto;
+    padding-right: auto;
+}
+.section3 > div{
+  text-align: center;
+  font-size: 30px;
+}
+.section3-header{
+    justify-content: center;
+    background: #FAFAFA;
+}
+.section3-header h2{
+    margin-top: 80px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+
+}
+.section3-header p{
+    margin: 10px auto;
+    height: 40px;
+    width: 470px;
+    
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+iframe{
+    position: absolute;
+    top: 273px;
+    height: 442px;
+    width: 877px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+.section2-empty{
+    background: #000000 50%;
+
+}
